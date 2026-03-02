@@ -1,0 +1,85 @@
+/*Lawrence Rosin*/
+/*Indents the first line of each paragraph*/
+p
+{
+  text-indent:40px;
+}
+/*Decorates the links*/
+a
+{
+  background-color:blue;
+  color:yellow;
+  font-family:Arial;
+  font-size:20px;
+}
+/*Makes all the text brown, except the links' which is already yellow*/
+h, h1, h3, p, ol, span
+{color:white;}
+/*Changes the color of the buttons that link to other pages*/
+a:hover{background-color:white;}
+/*Changes the background color of the page*/
+body
+{
+  background-color:lightblue;
+}
+#potteryBackground
+{background-image:url("http://firewhenreadypottery.com/wp-content/uploads/2010/12/home-show-1-1024x768.jpg");}
+/*Changes the font color of all fonts*/
+font
+{color:brown;}
+h1, h2, h3
+{
+  text-align:center;
+  text-decoration:underline;
+}
+img
+{
+  width:250px;
+  height:250px;
+}
+/*This doesn't use text-align center to center*/
+.centerParagraph
+{
+ position:relative;
+ right:-300px;
+}
+.imageLeft
+{ position:absolute;
+  left:10px;
+}
+.imageRight
+{
+  position:absolute;
+  right:10px;
+}  
+.center{text-align:center;}
+#quoteFont
+{ font-size:15px;
+  font-family:Arial;
+  text-align:center;
+}
+#right{text-align:right;}
+/*Underlines the list title of the list on the products page*/
+.titleFormat
+{
+ text-decoration:underline;
+ font-size:30px;
+ text-align:center;
+/*Makes the text bold*/
+  font-weight:bold;
+}
+/*Centers lists*/
+.centerList
+{ position:relative;
+  right:-400px;
+}
+.introFormat
+{
+  text-align:center;
+  font-size:20px;
+}
+#philosophicalFormat
+{
+font-style:italic;
+text-align:center;
+}
